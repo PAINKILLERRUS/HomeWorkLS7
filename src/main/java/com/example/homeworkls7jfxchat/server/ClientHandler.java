@@ -64,7 +64,7 @@ public class ClientHandler {
 
     }
 
-    private void  closeConnection() {
+    private void closeConnection() {
         sendMessage("end/");
         if (in != null){
             try {

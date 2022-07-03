@@ -8,7 +8,7 @@ import javafx.scene.layout.VBox;
 
 import java.io.IOException;
 import java.util.Optional;
-
+//
 public class ChatController {
     @FXML
     private TextField loginField;

@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class  InMemoryAuthService implements AuthService {
+public class InMemoryAuthService implements AuthService {
 
     private static class UserData{
         private String nick;
