@@ -50,7 +50,7 @@ public class ChatController {
         }
     }
 
-    public void clickSendButton() {
+    public void  clickSendButton() {
 
         final String message = messageField.getText();
         if (message.isBlank()) {
