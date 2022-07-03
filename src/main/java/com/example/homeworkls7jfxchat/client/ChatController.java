@@ -8,7 +8,7 @@ import javafx.scene.layout.VBox;
 
 import java.io.IOException;
 import java.util.Optional;
-
+//
 public class ChatController {
     @FXML
     private TextField loginField;
@@ -50,7 +50,7 @@ public class ChatController {
         }
     }
 
-    public void clickSendButton() {
+    public void  clickSendButton() {
 
         final String message = messageField.getText();
         if (message.isBlank()) {

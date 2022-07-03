@@ -1,11 +1,11 @@
 package com.example.homeworkls7jfxchat.client;
-
+//
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
 
-public class ChatClient {
+public class  ChatClient {
 
     private Socket socket;
     private DataInputStream in;
